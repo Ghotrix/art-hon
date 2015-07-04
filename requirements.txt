@@ -1,0 +1,2 @@
+psutil==3.0.1
+python-ptrace==0.8.1
