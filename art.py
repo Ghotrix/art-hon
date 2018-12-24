@@ -14,7 +14,7 @@ def floatToBytes(f):
     return struct.pack('f', f)
 
 def async_call():
-    call(['sudo', '-i', '-u', sys.argv[1], 'python2', os.getcwd() + '/launcher.py', 'cis'])
+    call(['sudo', '-i', '-u', sys.argv[1], os.getcwd() + '/hon-x86_64'])
 
 hon_pid = 0
 
